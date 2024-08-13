@@ -1,0 +1,206 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(chips-potato-chips.gif);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    color: #f9faf8;
+}
+
+.logo-img img {
+    border-radius: 50%;
+    height: 75px;
+}
+
+nav a { 
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: rgb(45, 59, 78);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bot-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 300px;
+    padding-bottom: 50px;
+}
+
+.bigger-text{
+    font-weight: 800;
+    font-size: 48px;
+    color: #f9faf8;
+    width: 550px;
+    text-align: justify;
+}
+
+.smoller-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 550px;
+    text-align: justify;
+}
+
+.sign-up1{
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.sign-up1:hover{
+    color: #3882f6;
+    background-color: #e5e7eb;
+}
+
+.top-img {
+    margin-top: 65px;
+}
+
+.top-img img {
+    max-height: 325px;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+
+.random-info p {
+    font-weight: 800;
+    size: 36px;
+    color: #e5e7e5;
+    text-align: center;
+}
+
+.info-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.info-item {
+    text-align: center;
+    width: 225px;
+}
+
+.info-box img {
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.info-box-description {
+    text-align: justify;
+    color:#e5e7e5
+}
+
+.quote {
+    background-color: #e5e7e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 26px;
+    width: 850px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 100;
+}
+
+cite{
+    margin-left: 730px;
+    padding-bottom: 15px;
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 25px 50px;
+    width: 850px;
+}
+
+.in-blue-box {
+    margin-right: 125px;
+    margin-left: 50px
+}
+
+.bigger-blue-text {
+    font-weight: bolder;
+    font-size: 26px;
+    white-space: nowrap;
+}
+
+.smoller-blue-text {
+    font: 16px;
+    width: 500px;
+}
+
+.sign-up2 {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    color: #e5e7e5;
+    padding: 10px 30px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.sign-up2:hover {
+    background-color: #e5e7e5;
+    color: #3882f6;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a{
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
